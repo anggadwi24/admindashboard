@@ -33,13 +33,11 @@ const Login = () => {
                 </div>
                 <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
                     <form>
-                  
-
-                    <div
-                        className="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5"
-                    >
-                        <p className="text-center font-semibold mx-4 mb-0">Login</p>
+                    <div className="flex flex-row items-center justify-center lg:justify-start mb-6">
+                         <h4 className="text-xl mb-0 mr-4"><b>Log In</b></h4>
                     </div>
+
+               
 
 
                     <div className="mb-6">
@@ -72,7 +70,7 @@ const Login = () => {
                             >Remember me</label
                         >
                         </div>
-                        <a href="#!" className="text-gray-800">Forgot password?</a>
+                       
                     </div>
 
                     <div className="text-center lg:text-left">
@@ -82,14 +80,7 @@ const Login = () => {
                         >
                         Login
                         </button>
-                        <p className="text-sm font-semibold mt-2 pt-1 mb-0">
-                        Don't have an account?
-                        <a
-                            href="#!"
-                            className="text-red-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out"
-                            >Register</a
-                        >
-                        </p>
+                       
                     </div>
                     </form>
                 </div>
